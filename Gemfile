@@ -67,6 +67,9 @@ gem 'rack-timeout', '0.0.4'
 # Add foreman gem
 gem 'foreman', '0.66.0'
 
+# Add purecss gem (about purecss: http://purecss.io / about purecss gem: https://github.com/mseri/rails-purecss)
+gem 'purecss', '0.4.2'
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 

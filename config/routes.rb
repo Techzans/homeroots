@@ -4,7 +4,15 @@ Zone::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  # root 'addresses#index'
+  
+  # Send root to search class
+
   root 'addresses#index'
+
+  # Send form requests to address class
+
+  resource :addresses
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
